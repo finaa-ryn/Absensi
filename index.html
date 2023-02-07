@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absensi Magang</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+        }
+        body {
+            background-color: rgb(255, 184, 0);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        h1 {
+            text-align: center;
+            padding-top: 50px;
+        }
+        .container img {
+            width: 170px;
+            margin-top: -80px;
+            margin-left: 85px;
+            margin-bottom: 50px;
+        }
+        .container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            padding: 5px 55px 300px 55px;
+            width: 350px;
+            height: 150px;
+            background-color: rgb(252, 233, 185);
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+        .container label {
+            text-align: left;
+        }
+        .container form input {
+            width: calc(100% - 20px);
+            padding: 8px 10px;
+            margin-bottom: 25px;
+            border: none;
+            background-color: rgb(252, 144, 206);
+            border-bottom: 2px solid #2979ff;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+        .container form button {
+            width: 100px;
+            height: 40px;
+            padding: 5px 0;
+            border: none;
+            background-color: rgb(252, 144, 206);
+            font-size: 18px;
+            color: #fafafa;
+            margin-left: 120px;
+            margin-top: 5px;
+            border-radius: 8px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>ABSENSI MAGANG SISWA</h1><br>
+        
+    <div class="container">
+        <img src="wmn.png" alt="">
+        <form action="">
+            <label for="usr">USERNAME</label><br>
+            <input type="text" placeholder="Masukkan username"><br>
+            <label for="psw">PASSWORD</label><br>
+            <input type="password" placeholder="Masukkan password"><br><br><br>
+            <button>LOGIN</button>
+        </form>
+    </div>
+</body>
+</html>
